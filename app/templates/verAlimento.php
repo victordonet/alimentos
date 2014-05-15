@@ -1,5 +1,8 @@
 <?php ob_start() ?>
-<h1><?php echo $params['nombre'] ?></h1>
+<h3>
+    <a href="http://es.wikipedia.org/wiki/<?php echo $params['nombre'] ?>" class="clsVentanaIFrame clsBoton" rel="Wikipedia"><?php echo $params['nombre'] ?></a>
+</h3>
+
 <table border="1">
     <tr>
         <td>Energ&iacute;a</td>
