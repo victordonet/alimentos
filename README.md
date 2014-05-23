@@ -1,7 +1,7 @@
 alimentos
 =========
 
-Aplicacion práctica del curso de Symfony2 de Aula Mentor
+Aplicacion ejemplo creada con php
 
 la tabla de la base de datos está mofificada para que acepte decimales en los numeros.
 CREATE TABLE `alimentos` (
