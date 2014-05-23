@@ -4,7 +4,7 @@ class Controller {
 
     public function inicio() {
         $params = array(
-            'mensaje' => 'Bienvenido al curso de Symfony2',
+            'mensaje' => 'Bienvenido a la base de datos de alimentos',
             'fecha' => date('d-m-Y'),
         );
         require __DIR__ . '/templates/inicio.php';
